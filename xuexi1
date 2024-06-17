@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Season and Meals</title>
+</head>
+<body>
+    <a href="#" id="showMessageLink">点击这里</a>
+    <div id="message" style="display: none; font-size: 24px; margin-top: 20px;">一年四季，一日三餐</div>
+
+    <script>
+        document.getElementById('showMessageLink').addEventListener('click', function(event) {
+            event.preventDefault();
+            document.getElementById('message').style.display = 'block';
+        });
+    </script>
+</body>
+</html>
